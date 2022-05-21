@@ -14,11 +14,13 @@
     <body>
         <main>
         <section>
+        <header>
             <h1>Welcome to The Little Potter ceramics shop!</h1>
+        </header>
             <nav>
                 <ul>
-                    <li><a href="#about" >About LPS</a></li>
-                    <li><a href="#products" >Our products</a></li>
+                    <li><a href="#about">About LPS</a></li>
+                    <li><a href="#products">Our products</a></li>
                     <li><a href="hours.html" target="_blank">Our opening hours</a></li>
                     <li><a href="contact.html" target="_blank">Contact us!</a></li>
                 </ul>
@@ -30,10 +32,12 @@
                 <figcaption>Our products.</figcaption>
             </figure>
         </section>
+
         <hr>
-        <section>
+
+        <section id="about">
             <h2>About <abbr title="Little Potter Shop">LPS</abbr></h2>
-            <article id="#about">
+            <article >
                 <p><abbr title="Little Potter Shop">LPS</abbr> is an fair-trade shop founded in 2022 by a couple of best friends. 
                     It was created from the love to <strong>pottery, art and coffee </strong>☕.
                     We specialize in unique teacups and mugs but we can also provide you with vases, bowls and plates.
@@ -46,20 +50,63 @@
                 </details>
             </aside>
         </section>
+
         <hr>
-        <section>
+
+        <section id="products">
             <h2>Our products</h2>
-            <article id="#products">
+            <article>
                 <table>
                     <caption>The range of our products.</caption>
-                    <thead></thead>
+                    <thead>
+                        <tr>
+                            <th scope="col">Product</th>
+                            <th scope="col">Size</th>
+                            <th scope="col">Pcs in set</th>
+                            <th scope="col">Price</th>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Teacup</th>
+                            <td>150ml</td>
+                            <td>2/4</td>
+                            <td>&euro;10 for 2, &euro;18 for 4</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Mug</th>
+                            <td>300ml</td>
+                            <td>2/4</td>
+                            <td>&euro;9 for 2, &euro;16 for 4</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Plate</th>
+                            <td>24cm</td>
+                            <td>2/4</td>
+                            <td>&euro;15 for 2, &euro;28 for 4</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Bowl</th>
+                            <td>500ml</td>
+                            <td>2/4</td>
+                            <td>&euro;16 for 2, &euro;30 for 4</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Vase</th>
+                            <td>500/1000ml</td>
+                            <td>1</td>
+                            <td>&euro;15 small, &euro;30 big</td>
+                        </tr>
+                    </thead>
                 </table>
 
             </article>
         </section>
     </main>
     <footer>
-        <p>Page by Paulina Kuta</p>
         <a href="#">Back to top</a>
         <hr>
         <p>Copyright &copy; The Little Potter Shop.</p>
