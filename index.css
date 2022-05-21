@@ -1,28 +1,38 @@
-html
-{
-    font-size: 22px;
+html {
+  font-size: 22px;
 }
 
-body
-{
-    background-color: #d4c59c;
-    color:#b2713d;
+body {
+  background-color: #d4c59c;
+  color: #b2713d;
 }
-a
-{
-    color: hwb(44 78% 13%);
+
+li {
+  list-style-type: none;
 }
-a:visited
-{
-    color: #7a624e;
+table {
+  text-align: center;
 }
-a:hover, a:active
-{
-   color: #9d5b25;
+
+a {
+  color: hwb(44 78% 13%);
 }
-table, tr, th, td, caption
-{
-    border:2px solid #7a624e;
-    font-family: 'Courier New', 'Courier New', Courier, monospace;
-    border-collapse: collapse;
+
+a:visited {
+  color: #7a624e;
+}
+
+a:hover,
+a:active {
+  color: #9d5b25;
+}
+
+table,
+tr,
+th,
+td,
+caption {
+  border: 2px solid #7a624e;
+  font-family: "Courier New", "Courier New", Courier, monospace;
+  border-collapse: collapse;
 }
