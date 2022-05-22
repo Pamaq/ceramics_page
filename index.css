@@ -6,10 +6,10 @@ body {
   background-color: #d4c59c;
   color: #b2713d;
 }
-
-li {
-  list-style-type: none;
+list {
+  list-style: armenian;
 }
+
 table {
   text-align: center;
 }
